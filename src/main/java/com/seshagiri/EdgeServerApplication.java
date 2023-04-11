@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EdgeServerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Edge Server Started");
 		SpringApplication.run(EdgeServerApplication.class, args);
 	}
 
